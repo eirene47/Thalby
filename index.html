@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <header>
@@ -83,7 +86,67 @@
                 </div>
             </div>
             <h3>Our best sellers</h3>
-            <div class="d-flex space-between">
+            <div class="best-sellers-cards d-flex space-between owl-carousel">
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_1.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to French Culture and Heritage</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_2.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to French People and Society</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_3.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to German Culture and Heritage</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_1.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to French Culture and Heritage</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_2.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to French People and Society</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image">
+                        <img src="images/card_3.png" alt="card">
+                    </div>
+                    <div class="card-text">
+                        <h4>Thalby Guide to German Culture and Heritage</h4>
+                        <p>USD 6.99</p>
+                        <a href="#">Add to cart</a>
+                    </div>
+                </article>
                 <article class="card">
                     <div class="card-image">
                         <img src="images/card_1.png" alt="card">
@@ -117,6 +180,79 @@
             </div>
         </div>
     </section>
+    <section class="description-1">
+        <div class="container d-flex item-center">
+            <div class="image">
+                <img src="images/card_4.png" alt="image">
+            </div>
+            <div class="description-text">
+                <h4>People and Society</h4>
+                <p>
+                    Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.
+                </p>
+                <a href="#">Shop Society Guides</a>
+            </div>
+        </div>
+    </section>
+    <section class="description-2">
+        <div class="container d-flex item-center">
+            <div class="image">
+                <img src="images/card_5.png" alt="image">
+            </div>
+            <div class="description-text">
+                <h4>Culture and Heritage</h4>
+                <p>
+                    As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.
+                </p>
+                <a href="#">Shop Culture Guides</a>
+            </div>
+        </div>
+    </section>
+    <section class="description-1">
+        <div class="container d-flex item-center">
+            <div class="image">
+                <img src="images/card_6.png" alt="image">
+            </div>
+            <div class="description-text">
+                <h4>Power and Politics</h4>
+                <p>
+                    Our guides to power take you behind the scenes to explore the power dynamics, policies and politics shaping a country's future and its global position.
+                </p>
+                <a href="#">Coming 2022!</a>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <h3>Keep in touch</h3>
+            <p>
+                Get our travel advice, global views and travel freebies in your inbox
+            </p>
+            <form action="#" method="post">
+                <div class="name d-flex space-between">
+                    <div>
+                        <label class="form-control" for="first-name"></label>
+                        <input class="form-name" type="text" name="first-name" placeholder="First Name" id="first-name">
+                    </div>
+                    <div>
+                        <label class="form-control" for="last-name"></label>
+                        <input class="form-name" type="text" name="last-name" placeholder="Last Name" id="last-name">
+                    </div>
+                </div>
+                <div>
+                    <label class="form-control" for="email"></label>
+                    <input class="form-email" type="email" name="email" placeholder="Email" id="email">
+                </div>
+                <button class="form-button" type="submit">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </section>
 </main>
+
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
