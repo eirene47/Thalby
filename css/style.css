@@ -326,6 +326,7 @@ header .items li:nth-child(3){
     text-align: center;
     color: #000000;
 }
+/* ACCORDION */
 #accordion{
     margin-bottom: 52px;
 }
@@ -367,6 +368,7 @@ header .items li:nth-child(3){
     transform: rotate(90deg);
     display: inline-block;
 }
+/* FORM */
 .form{
     padding-top: 79px;
     padding-bottom: 88px;
@@ -438,8 +440,50 @@ header .items li:nth-child(3){
     padding: 8px 23px;
     cursor: pointer;
 }
+/* FOOTER */
 footer{
     padding-top: 51px;
     padding-bottom: 16px;
     background-color: #020202;
+}
+.footer-logo{
+    margin-bottom: 25px;
+}
+.social{
+    justify-content: space-around;
+}
+.footer-items ul{
+    list-style: none;
+}
+.footer-items ul:first-child{
+    margin-right: 72px;
+}
+.footer-items ul li:first-of-type{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.footer-items ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-items ul li{
+    margin-bottom: 12px;
+}
+footer p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
 }
