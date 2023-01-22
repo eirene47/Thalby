@@ -368,6 +368,49 @@ header .items li:nth-child(3){
     transform: rotate(90deg);
     display: inline-block;
 }
+.interviews{
+    background-color: #F0F0F0;
+    max-height: 480px;
+}
+.interviews .container{
+    position: relative;
+    top: -188px;
+}
+.interviews-description{
+    max-width: 288px;
+    text-align: center;
+}
+.interviews-image{
+    margin-bottom: 35px;
+}
+.interviews-image img{
+    width: 100%;
+    display: block;
+}
+.interviews-description h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.interviews-description p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 44px;
+}
+.interviews-description a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
 /* FORM */
 .form{
     padding-top: 79px;
