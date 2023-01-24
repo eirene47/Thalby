@@ -25,14 +25,24 @@ header .logo{
     position: absolute;
     left: calc(50% - 40px);
 }
-header nav ul,
+.checkbox,
+.hamburger-lines{
+    display: none;
+}
+.menu-items ul,
 header .items{
     list-style: none;
 }
-header nav ul li{
+.menu-items{
+    order: 1;
+}
+header .items{
+    order: 2;
+}
+.menu-items ul li{
     margin-right: 28px;
 }
-header nav ul li a{
+.menu-items ul li a{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -60,7 +70,7 @@ header .items li:nth-child(3){
 }
 /* MAIN */
 .main-banner{
-    padding-top: 9px;
+    padding-top: 24px;
     padding-bottom: 24px;
     background-color: #F0EFEB;
 }
