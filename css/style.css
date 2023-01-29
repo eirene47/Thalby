@@ -469,7 +469,7 @@ header .items li:nth-child(3){
     max-width: 153px;
     box-sizing: border-box;
 }
-.form-email {
+.form-email{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

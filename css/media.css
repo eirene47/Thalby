@@ -216,7 +216,7 @@
 }
 @media only screen and (max-width: 600px){
     .hidden-2{
-    display: none;
+        display: none;
     }
     footer .container{
         flex-direction: column;
@@ -246,5 +246,17 @@
     .footer-items ul:first-child{
         margin-right: 0;
         margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .name{
+        display: inherit;
+        margin: 0;
+    }
+    .form-name{
+        max-width: inherit;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 16px;
     }
 }
