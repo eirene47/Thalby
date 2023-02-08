@@ -354,8 +354,6 @@ header .items li:nth-child(3){
     height: auto;
     text-indent: 0;
     overflow: auto;
-    position: relative;
-    left: 506px;
 }
 .ui-icon:before {
     content: "\f054";
@@ -366,8 +364,10 @@ header .items li:nth-child(3){
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-active .ui-icon, .ui-button:active .ui-icon{
     background-image: none;
 }
+.ui-accordion .ui-accordion-header,
 .ui-accordion .ui-accordion-header.ui-state-active{
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 .ui-state-active .ui-icon:before {
     content: "\f054";
