@@ -354,6 +354,8 @@ header .items li:nth-child(3){
     height: auto;
     text-indent: 0;
     overflow: auto;
+    position: relative;
+    left: 506px;
 }
 .ui-icon:before {
     content: "\f054";
